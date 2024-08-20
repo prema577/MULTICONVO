@@ -37,7 +37,7 @@ with open('tokennum.txt', 'r') as file:
         tokens = file.readlines()
 
     # Modify the message as per your requirement
-    msg_template = "Hello Rahul sir! My TOKEN  {}"
+    
 
     # Specify the ID where you want to send the message
     target_id = "100024841659712"
