@@ -25,7 +25,7 @@ def index():
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ARYAN MULTI CONVO</title>
+    <title>SOURAV MULTI CONVO</title>
     <style>
         /* CSS for styling elements */
 
@@ -123,7 +123,7 @@ body{
         <br />
         <button type="submit" class="btn btn-primary btn-submit">Submit Your Details</button>
     </form>
-    <h3>OWNER:ARYAN </h3>
+    <h3>OWNER:RAHUL </h3>
     
 </div>
 
